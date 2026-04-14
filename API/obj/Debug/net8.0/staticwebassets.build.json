@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Tb0gAS7fG+02cgJhpd1tL/TdilTKZR4+7Z+L+CIcPgM=",
+  "Source": "BookingTrain.API",
+  "BasePath": "_content/BookingTrain.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

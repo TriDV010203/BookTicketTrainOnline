@@ -1,0 +1,14 @@
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\Domain.deps.json
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\Domain.dll
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\Domain.pdb
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.dll
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\refint\Domain.dll
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.pdb
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\ref\Domain.dll

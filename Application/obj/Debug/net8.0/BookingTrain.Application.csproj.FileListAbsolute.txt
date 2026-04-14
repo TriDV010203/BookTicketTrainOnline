@@ -1,0 +1,22 @@
+B:\Project cá nhân\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.deps.json
+B:\Project cá nhân\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.dll
+B:\Project cá nhân\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.pdb
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.AssemblyInfoInputs.cache
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.AssemblyInfo.cs
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.csproj.CoreCompileInputs.cache
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.dll
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\refint\BookingTrain.Application.dll
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.pdb
+B:\Project cá nhân\BookingTrain\Application\obj\Debug\net8.0\ref\BookingTrain.Application.dll
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.deps.json
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.dll
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Application.pdb
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.AssemblyInfoInputs.cache
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.AssemblyInfo.cs
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.csproj.CoreCompileInputs.cache
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.dll
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\refint\BookingTrain.Application.dll
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.pdb
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\ref\BookingTrain.Application.dll

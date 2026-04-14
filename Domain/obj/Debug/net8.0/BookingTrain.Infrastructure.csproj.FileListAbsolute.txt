@@ -1,0 +1,34 @@
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.csproj.AssemblyReference.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.AssemblyInfoInputs.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.AssemblyInfo.cs
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.csproj.CoreCompileInputs.cache
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.deps.json
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.runtimeconfig.json
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.dll
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.pdb
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project cá nhân\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingT.F4ADBADC.Up2Date
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.dll
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\refint\BookingTrain.Infrastructure.dll
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.pdb
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.genruntimeconfig.cache
+B:\Project cá nhân\BookingTrain\Domain\obj\Debug\net8.0\ref\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.deps.json
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.runtimeconfig.json
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Infrastructure.pdb
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Domain\bin\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.csproj.AssemblyReference.cache
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.AssemblyInfoInputs.cache
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.AssemblyInfo.cs
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.csproj.CoreCompileInputs.cache
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingT.F4ADBADC.Up2Date
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\refint\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.pdb
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.genruntimeconfig.cache
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\ref\BookingTrain.Infrastructure.dll

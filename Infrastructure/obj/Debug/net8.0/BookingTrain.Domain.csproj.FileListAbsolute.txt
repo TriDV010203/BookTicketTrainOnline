@@ -1,0 +1,22 @@
+B:\Project cá nhân\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.deps.json
+B:\Project cá nhân\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project cá nhân\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.AssemblyInfoInputs.cache
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.AssemblyInfo.cs
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.csproj.CoreCompileInputs.cache
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\refint\BookingTrain.Domain.dll
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project cá nhân\BookingTrain\Infrastructure\obj\Debug\net8.0\ref\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.deps.json
+B:\Project Test\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Infrastructure\bin\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.GeneratedMSBuildEditorConfig.editorconfig
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.AssemblyInfoInputs.cache
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.AssemblyInfo.cs
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.csproj.CoreCompileInputs.cache
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\refint\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\ref\BookingTrain.Domain.dll
