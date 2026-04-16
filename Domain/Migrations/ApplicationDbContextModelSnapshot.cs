@@ -130,14 +130,18 @@ namespace BookingTrain.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CoachNumber")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("SeatNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("SeatType")
+                    b.Property<int>("SeatTypeId")
                         .HasColumnType("int");
 
                     b.Property<int>("TrainId")
@@ -148,9 +152,40 @@ namespace BookingTrain.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TrainId");
+                    b.HasIndex("SeatTypeId");
+
+                    b.HasIndex("TrainId", "SeatNumber")
+                        .IsUnique();
 
                     b.ToTable("Seats");
+                });
+
+            modelBuilder.Entity("BookingTrain.Domain.Entities.SeatType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SeatTypes");
                 });
 
             modelBuilder.Entity("BookingTrain.Domain.Entities.Station", b =>
@@ -338,11 +373,19 @@ namespace BookingTrain.Infrastructure.Migrations
 
             modelBuilder.Entity("BookingTrain.Domain.Entities.Seat", b =>
                 {
+                    b.HasOne("BookingTrain.Domain.Entities.SeatType", "SeatType")
+                        .WithMany("Seats")
+                        .HasForeignKey("SeatTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("BookingTrain.Domain.Entities.Train", "Train")
                         .WithMany("Seats")
                         .HasForeignKey("TrainId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("SeatType");
 
                     b.Navigation("Train");
                 });
@@ -387,6 +430,11 @@ namespace BookingTrain.Infrastructure.Migrations
             modelBuilder.Entity("BookingTrain.Domain.Entities.Seat", b =>
                 {
                     b.Navigation("Tickets");
+                });
+
+            modelBuilder.Entity("BookingTrain.Domain.Entities.SeatType", b =>
+                {
+                    b.Navigation("Seats");
                 });
 
             modelBuilder.Entity("BookingTrain.Domain.Entities.Ticket", b =>

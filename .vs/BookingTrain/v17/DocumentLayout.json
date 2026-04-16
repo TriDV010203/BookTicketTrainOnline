@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "B:\\Project Test\\BookingTrain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414160129_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260414160129_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\trainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\trainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\itrainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\itrainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,34 +47,6 @@
       "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260414155812_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,8 +55,40 @@
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\controllers\\trainscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\controllers\\trainscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260414155812_dbver1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,18 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -915,56 +935,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260414160129_dbver1.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414160129_dbver1.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20260414160129_dbver1.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414160129_dbver1.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20260414160129_dbver1.cs",
+              "Title": "20260416173454_dbver2.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260416173454_dbver2.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260416173454_dbver2.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260416173454_dbver2.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260416173454_dbver2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T16:01:29.118Z",
+              "WhenOpened": "2026-04-16T17:34:55.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20260414155812_dbver1.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20260414155812_dbver1.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20260414155812_dbver1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\IUserService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
+              "RelativeToolTip": "Application\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:58:12.793Z",
+              "WhenOpened": "2026-04-16T16:44:24.634Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TicketRepository.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\TicketRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Repositories\\TicketRepository.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\TicketRepository.cs",
-              "RelativeToolTip": "Domain\\Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\UserService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\UserService.cs",
+              "RelativeToolTip": "Application\\Service\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:29:35.204Z"
+              "WhenOpened": "2026-04-16T16:44:11.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Repositories\\GenericRepository.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Domain\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:28:08.492Z",
+              "WhenOpened": "2026-04-14T15:20:42.682Z",
               "EditorCaption": ""
             },
             {
@@ -973,31 +990,110 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrainService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\TrainService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TrainService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\TrainService.cs",
+              "RelativeToolTip": "Application\\Service\\TrainService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:34:54.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:54:52.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ITrainService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\ITrainService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\ITrainService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\ITrainService.cs",
+              "RelativeToolTip": "Application\\Service\\ITrainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:32:29.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TrainsController.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Controllers\\TrainsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\TrainsController.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Controllers\\TrainsController.cs",
+              "RelativeToolTip": "API\\Controllers\\TrainsController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAADsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:06:11.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260414155812_dbver1.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260414155812_dbver1.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260414155812_dbver1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:58:12.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\TicketRepository.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:29:35.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\GenericRepository.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:28:08.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\UnitOfWork.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\UnitOfWork.cs",
               "RelativeToolTip": "Domain\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:27:26.314Z"
+              "WhenOpened": "2026-04-14T15:27:26.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:20:42.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -1010,32 +1106,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Domain\\Persistence\\ApplicationDbContext.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Persistence\\ApplicationDbContext.cs",
               "RelativeToolTip": "Domain\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAgwF0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T15:05:46.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
               "RelativeToolTip": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:43:06.401Z"
+              "WhenOpened": "2026-04-14T14:43:06.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "ITicketRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\ITicketRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\ITicketRepository.cs",
@@ -1043,23 +1140,25 @@
               "RelativeToolTip": "Infrastructure\\Interfaces\\ITicketRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:42:19.939Z"
+              "WhenOpened": "2026-04-14T14:42:19.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IGenericRepository.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IGenericRepository.cs",
               "RelativeToolTip": "Infrastructure\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:41:41.213Z"
+              "WhenOpened": "2026-04-14T14:41:41.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Common\\BaseEntity.cs",
@@ -1071,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "SeatType.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\SeatType.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\SeatType.cs",
@@ -1083,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "PaymentStatus.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\PaymentStatus.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\PaymentStatus.cs",
@@ -1095,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "TicketStatus.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\TicketStatus.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\TicketStatus.cs",
@@ -1107,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Payment.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Payment.cs",
@@ -1119,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Ticket.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Ticket.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Ticket.cs",
@@ -1131,55 +1230,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "Seat.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Seat.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Seat.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Seat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:08:30.773Z"
+              "WhenOpened": "2026-04-14T14:08:30.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Schedule.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Schedule.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Schedule.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Schedule.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Schedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:07:20.432Z"
+              "WhenOpened": "2026-04-14T14:07:20.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Route.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Route.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Route.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Route.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Route.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:04:38.334Z"
+              "WhenOpened": "2026-04-14T14:04:38.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Train.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Train.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Train.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Train.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Train.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:03:32.346Z"
+              "WhenOpened": "2026-04-14T14:03:32.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Station.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Station.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Station.cs",
@@ -1191,27 +1294,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\User.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\User.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:59:32.005Z"
+              "WhenOpened": "2026-04-14T13:59:32.005Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:48:07.411Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },

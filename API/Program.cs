@@ -1,7 +1,9 @@
-﻿using BookingTrain.Domain.Interfaces;
+using BookingTrain.Domain.Interfaces;
 using BookingTrain.Infrastructure.Persistence;
 using BookingTrain.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using BookingTrain.Application.Service;
+
 namespace API
 {
     public class Program
@@ -10,18 +12,40 @@ namespace API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // 1. Lấy chuỗi kết nối từ appsettings.json
+            // Lấy chuỗi kết nối từ appsettings.json
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            // 2. Đăng ký ApplicationDbContext vào hệ thống Dependency Injection
+            // Đăng ký ApplicationDbContext vào hệ thống Dependency Injection
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-            // 3. Đăng ký các Repository và UnitOfWork (Để API có thể gọi dùng)
+            // Đăng ký các Repository và UnitOfWork
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            // Add services to the container.
 
-            builder.Services.AddControllers();
+            // Đăng ký tất cả Services
+            builder.Services.AddScoped<ITrainService,    TrainService>();
+            builder.Services.AddScoped<IUserService,     UserService>();
+            builder.Services.AddScoped<IStationService,  StationService>();
+            builder.Services.AddScoped<ISeatTypeService, SeatTypeService>();
+            builder.Services.AddScoped<ISeatService,     SeatService>();
+            builder.Services.AddScoped<IRouteService,    RouteService>();
+            builder.Services.AddScoped<IScheduleService, ScheduleService>();
+            builder.Services.AddScoped<ITicketService,   TicketService>();
+            builder.Services.AddScoped<IPaymentService,  PaymentService>();
+
+
+            // Add services to the container.
+            builder.Services.AddControllers(options =>
+            {
+                // 1. TẮT LỖI POST: Không bắt buộc nhập các trường liên kết (như User, Ticket, Seats...) khi tạo mới
+                options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+            })
+               .AddJsonOptions(options =>
+              {
+               // 2. TẮT LỖI GET: Chống lỗi "vòng lặp vô tận" khi gọi API lấy danh sách (User gọi Ticket, Ticket lại gọi ngược User)
+                options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+             } );
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -38,7 +62,6 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

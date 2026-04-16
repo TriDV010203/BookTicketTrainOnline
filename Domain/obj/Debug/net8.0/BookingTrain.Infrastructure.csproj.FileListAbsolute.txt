@@ -32,3 +32,4 @@ B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\refint\BookingTrain.Infrast
 B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.pdb
 B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.genruntimeconfig.cache
 B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\ref\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Domain\obj\Debug\net8.0\BookingTrain.Infrastructure.sourcelink.json

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "BookingTrain.API/1.0.0": {
         "dependencies": {
+          "BookingTrain.Application": "1.0.0",
+          "BookingTrain.Domain": "1.0.0",
           "BookingTrain.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.1",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -891,6 +893,18 @@
           }
         }
       },
+      "BookingTrain.Application/1.0.0": {
+        "dependencies": {
+          "BookingTrain.Domain": "1.0.0",
+          "BookingTrain.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "BookingTrain.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "BookingTrain.Domain/1.0.0": {
         "runtime": {
           "BookingTrain.Domain.dll": {
@@ -1478,6 +1492,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "BookingTrain.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BookingTrain.Domain/1.0.0": {
       "type": "project",

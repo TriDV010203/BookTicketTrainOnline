@@ -20,3 +20,4 @@ B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain
 B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\refint\BookingTrain.Domain.dll
 B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.pdb
 B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\ref\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Infrastructure\obj\Debug\net8.0\BookingTrain.Domain.sourcelink.json

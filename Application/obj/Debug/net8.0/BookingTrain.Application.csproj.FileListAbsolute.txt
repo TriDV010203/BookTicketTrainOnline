@@ -20,3 +20,10 @@ B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Applicati
 B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\refint\BookingTrain.Application.dll
 B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.pdb
 B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\ref\BookingTrain.Application.dll
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Domain.dll
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Infrastructure.dll
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Infrastructure.pdb
+B:\Project Test\BookingTrain\Application\bin\Debug\net8.0\BookingTrain.Domain.pdb
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.csproj.AssemblyReference.cache
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingTrain.Application.sourcelink.json
+B:\Project Test\BookingTrain\Application\obj\Debug\net8.0\BookingT.49AB2854.Up2Date

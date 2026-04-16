@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application\BookingTrain.Application.csproj" />
     <ProjectReference Include="..\Domain\BookingTrain.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\BookingTrain.Domain.csproj" />
   </ItemGroup>
 
 </Project>
