@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "B:\\Project Test\\BookingTrain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|b:\\project test\\bookingtrain\\bookingtrain.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|solutionrelative:bookingtrain.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|b:\\project test\\bookingtrain\\bookingtrain.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|solutionrelative:bookingtrain.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|b:\\project test\\bookingtrain\\bookingtrain.web\\models\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|solutionrelative:bookingtrain.web\\models\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|b:\\project test\\bookingtrain\\bookingtrain.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|solutionrelative:bookingtrain.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|b:\\project test\\bookingtrain\\bookingtrain.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECC919F-5EDE-442C-8756-18DEB2CA40D7}|BookingTrain.Web\\BookingTrain.Web.csproj|solutionrelative:bookingtrain.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|solutionrelative:application\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\migrations\\20260416173454_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5799BDB3-F21D-48F7-A588-A0855570E3F1}|Application\\BookingTrain.Application.csproj|b:\\project test\\bookingtrain\\application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|solutionrelative:domain\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{586AF0DE-4C5C-40F3-BD4D-09139754C30F}|Domain\\BookingTrain.Infrastructure.csproj|b:\\project test\\bookingtrain\\domain\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|b:\\project test\\bookingtrain\\infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833BEBF7-23B8-4841-976D-15703DB19882}|Infrastructure\\BookingTrain.Domain.csproj|solutionrelative:infrastructure\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93BC7962-71AF-4264-99BB-3A795705E61F}|API\\BookingTrain.API.csproj|b:\\project test\\bookingtrain\\api\\controllers\\trainscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -935,6 +967,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "BookingTrain.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "BookingTrain.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T15:15:10.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BookingTrain.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BookingTrain.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:14:41.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Models\\Auth\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "BookingTrain.Web\\Models\\Auth\\LoginViewModel.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Models\\Auth\\LoginViewModel.cs",
+              "RelativeToolTip": "BookingTrain.Web\\Models\\Auth\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:14:22.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BookingTrain.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BookingTrain.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T14:59:23.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BookingTrain.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\BookingTrain.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BookingTrain.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T14:59:21.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T14:14:22.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\AuthService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\AuthService.cs",
+              "RelativeToolTip": "Application\\Service\\AuthService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv1cAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T14:12:44.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\IAuthService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Service\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T14:12:34.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T15:19:46.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:20:42.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "20260416173454_dbver2.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260416173454_dbver2.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\20260416173454_dbver2.cs",
@@ -947,50 +1109,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\IUserService.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
-              "RelativeToolTip": "Application\\Service\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T16:44:24.634Z",
+              "WhenOpened": "2026-04-14T14:43:06.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\UserService.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\UserService.cs",
               "RelativeToolTip": "Application\\Service\\UserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T16:44:11.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwC4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:20:42.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "TrainService.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\TrainService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\TrainService.cs",
@@ -1003,7 +1148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\IUserService.cs",
+              "ToolTip": "B:\\Project Test\\BookingTrain\\Application\\Service\\IUserService.cs",
+              "RelativeToolTip": "Application\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:44:24.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UsersController.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
@@ -1016,7 +1174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "ITrainService.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Application\\Service\\ITrainService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\ITrainService.cs",
@@ -1029,32 +1187,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "TrainsController.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\Controllers\\TrainsController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\TrainsController.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\API\\Controllers\\TrainsController.cs",
               "RelativeToolTip": "API\\Controllers\\TrainsController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAADsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAIBJwDsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T15:06:11.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "20260414155812_dbver1.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\20260414155812_dbver1.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Migrations\\20260414155812_dbver1.cs",
               "RelativeToolTip": "Domain\\Migrations\\20260414155812_dbver1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T15:58:12.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "TicketRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\TicketRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\TicketRepository.cs",
@@ -1067,7 +1224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\GenericRepository.cs",
@@ -1080,7 +1237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\UnitOfWork.cs",
@@ -1093,46 +1250,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-14T15:19:46.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Domain\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Domain\\Persistence\\ApplicationDbContext.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Domain\\Persistence\\ApplicationDbContext.cs",
               "RelativeToolTip": "Domain\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwGsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T15:05:46.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:43:06.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "ITicketRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\ITicketRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\ITicketRepository.cs",
@@ -1145,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IGenericRepository.cs",
@@ -1158,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Common\\BaseEntity.cs",
@@ -1166,11 +1297,12 @@
               "RelativeToolTip": "Infrastructure\\Common\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:40:21.296Z"
+              "WhenOpened": "2026-04-14T14:40:21.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "SeatType.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\SeatType.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\SeatType.cs",
@@ -1178,11 +1310,12 @@
               "RelativeToolTip": "Infrastructure\\Enums\\SeatType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:27:54.205Z"
+              "WhenOpened": "2026-04-14T14:27:54.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "PaymentStatus.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\PaymentStatus.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\PaymentStatus.cs",
@@ -1190,11 +1323,12 @@
               "RelativeToolTip": "Infrastructure\\Enums\\PaymentStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:27:10.156Z"
+              "WhenOpened": "2026-04-14T14:27:10.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "TicketStatus.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Enums\\TicketStatus.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enums\\TicketStatus.cs",
@@ -1202,11 +1336,12 @@
               "RelativeToolTip": "Infrastructure\\Enums\\TicketStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:26:39.162Z"
+              "WhenOpened": "2026-04-14T14:26:39.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Payment.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Payment.cs",
@@ -1214,11 +1349,12 @@
               "RelativeToolTip": "Infrastructure\\Entities\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:09:53.854Z"
+              "WhenOpened": "2026-04-14T14:09:53.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Ticket.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Ticket.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Ticket.cs",
@@ -1226,63 +1362,64 @@
               "RelativeToolTip": "Infrastructure\\Entities\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:09:16.324Z"
+              "WhenOpened": "2026-04-14T14:09:16.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Seat.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Seat.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Seat.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Seat.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T14:08:30.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "Schedule.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Schedule.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Schedule.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Schedule.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Schedule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T14:07:20.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Route.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Route.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Route.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Route.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Route.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T14:04:38.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Train.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Train.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Train.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Train.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\Train.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T14:03:32.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "Station.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\Station.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Station.cs",
@@ -1290,20 +1427,25 @@
               "RelativeToolTip": "Infrastructure\\Entities\\Station.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:03:08.389Z"
+              "WhenOpened": "2026-04-14T14:03:08.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\User.cs",
               "ToolTip": "B:\\Project Test\\BookingTrain\\Infrastructure\\Entities\\User.cs",
               "RelativeToolTip": "Infrastructure\\Entities\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T13:59:32.005Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",

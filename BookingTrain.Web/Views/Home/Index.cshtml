@@ -1,0 +1,185 @@
+@{
+    ViewData["Title"] = "Trang chủ";
+    ViewData["Description"] = "Đặt vé tàu trực tuyến nhanh chóng, tiện lợi và an toàn";
+
+    var isLoggedIn = Context.Session.GetString("JWT_Token") != null;
+    var userName   = Context.Session.GetString("User_Name")  ?? "";
+    var userEmail  = Context.Session.GetString("User_Email") ?? "";
+    var userRole   = Context.Session.GetString("User_Role")  ?? "Customer";
+    var initial    = userName.Length > 0 ? userName.Substring(0, 1).ToUpper() : "U";
+}
+
+<div class="page-wrapper">
+
+    <!-- ══ HERO ═══════════════════════════════════════════════════════ -->
+    <section class="hero">
+        <div class="hero-badge">
+            <span class="dot"></span>
+            Hệ thống đặt vé tàu #1 Việt Nam
+        </div>
+
+        <h1>
+            Đặt vé tàu <span class="hl">nhanh chóng</span><br/>
+            Tiện lợi &amp; An toàn
+        </h1>
+
+        <p class="hero-sub">
+            Hơn 500 chuyến tàu mỗi ngày. Chọn ghế, thanh toán, nhận vé ngay —
+            tất cả chỉ trong vài tích tắc.
+        </p>
+
+        <div class="hero-cta">
+            @if (isLoggedIn)
+            {
+                <a href="#search" class="btn btn-primary btn-lg">🔍 Tìm kiếm chuyến tàu</a>
+                <a href="#" class="btn btn-outline btn-lg">🎫 Vé của tôi</a>
+            }
+            else
+            {
+                <a asp-controller="Auth" asp-action="Register" class="btn btn-primary btn-lg">
+                    🚀 Bắt đầu ngay – Miễn phí
+                </a>
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-outline btn-lg">
+                    🔑 Đăng nhập
+                </a>
+            }
+        </div>
+    </section>
+
+    <!-- ══ WELCOME CARD (khi đã đăng nhập) ══════════════════════════ -->
+    @if (isLoggedIn)
+    {
+        <div class="welcome-wrap">
+            <div class="welcome-card">
+                <div class="welcome-avatar">@initial</div>
+                <div class="welcome-info">
+                    <h3>Chào mừng trở lại, @userName! 👋</h3>
+                    <p>@userEmail &nbsp;|&nbsp; Tham gia từ hôm nay</p>
+                </div>
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <span class="role-pill @(userRole == "Admin" ? "role-admin" : "role-customer")">
+                        @(userRole == "Admin" ? "⚙️ Admin" : "👤 Customer")
+                    </span>
+                    <form asp-controller="Auth" asp-action="Logout" method="post" style="margin:0;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger btn-sm">🚪 Đăng xuất</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- ══ SEARCH BOX ════════════════════════════════════════════════ -->
+    <div class="search-wrap" id="search">
+        <div class="search-card">
+            <h3>🔍 Tìm kiếm chuyến tàu</h3>
+            <div class="search-grid">
+                <div class="search-field">
+                    <label>Ga đi</label>
+                    <input type="text" class="search-input" placeholder="Ví dụ: Hà Nội" list="stations" />
+                </div>
+                <div class="search-field">
+                    <label>Ga đến</label>
+                    <input type="text" class="search-input" placeholder="Ví dụ: Hồ Chí Minh" list="stations" />
+                </div>
+                <div class="search-field">
+                    <label>Ngày đi</label>
+                    <input type="date" class="search-input" id="depart-date" />
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-lg" style="width:100%;padding:11px 20px;">
+                        Tìm kiếm
+                    </button>
+                </div>
+            </div>
+            <datalist id="stations">
+                <option value="Hà Nội"></option>
+                <option value="Hồ Chí Minh"></option>
+                <option value="Đà Nẵng"></option>
+                <option value="Huế"></option>
+                <option value="Nha Trang"></option>
+                <option value="Đà Lạt"></option>
+                <option value="Vinh"></option>
+                <option value="Quy Nhơn"></option>
+            </datalist>
+        </div>
+    </div>
+
+    <!-- ══ STATS ═════════════════════════════════════════════════════ -->
+    <div class="stats-wrap">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">🚆</div>
+                <div class="stat-value">500+</div>
+                <div class="stat-label">Chuyến tàu mỗi ngày</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📍</div>
+                <div class="stat-value">63</div>
+                <div class="stat-label">Tỉnh thành phủ sóng</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-value">1.2M+</div>
+                <div class="stat-label">Khách hàng tin dùng</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-value">4.9</div>
+                <div class="stat-label">Đánh giá trung bình</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══ FEATURES ══════════════════════════════════════════════════ -->
+    <div class="features-wrap">
+        <div class="section-head">
+            <h2>Tại sao chọn <span style="color:var(--accent)">BookingTrain?</span></h2>
+            <p>Trải nghiệm đặt vé hiện đại, nhanh gọn và hoàn toàn tin cậy</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(59,130,246,.12);">🔍</div>
+                <h3>Tra cứu thông minh</h3>
+                <p>Tìm kiếm chuyến tàu theo ga đi, ga đến và ngày khởi hành. Kết quả hiển thị tức thì, đầy đủ thông tin giá vé và ghế trống.</p>
+            </div>
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(16,185,129,.12);">💺</div>
+                <h3>Chọn ghế trực quan</h3>
+                <p>Sơ đồ ghế trực quan, tự chọn ghế yêu thích – ghế cửa sổ, khoang VIP, giường nằm hay ghế ngồi mềm đều có.</p>
+            </div>
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(139,92,246,.12);">💳</div>
+                <h3>Thanh toán an toàn</h3>
+                <p>Hỗ trợ thẻ ngân hàng, ví điện tử, QR Code và trả sau. Mã hóa 256-bit bảo vệ toàn bộ giao dịch.</p>
+            </div>
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(245,158,11,.12);">🎫</div>
+                <h3>Vé điện tử tức thì</h3>
+                <p>Vé gửi ngay qua email và SMS sau khi thanh toán thành công. Xuất trình QR Code là lên tàu – không cần in.</p>
+            </div>
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(6,182,212,.12);">🔄</div>
+                <h3>Đổi / Hoàn vé dễ</h3>
+                <p>Thay đổi lịch trình, đổi ghế hoặc hoàn vé trực tiếp trên ứng dụng theo chính sách minh bạch từ VNR.</p>
+            </div>
+            <div class="feat-card">
+                <div class="feat-card-icon" style="background:rgba(239,68,68,.12);">🛡️</div>
+                <h3>Bảo mật tuyệt đối</h3>
+                <p>Xác thực JWT, mã hóa mật khẩu BCrypt, phiên đăng nhập an toàn. Thông tin cá nhân luôn được bảo vệ.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    // Set ngày đi mặc định = hôm nay
+    const dateInput = document.getElementById('depart-date');
+    if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.value = today;
+        dateInput.min   = today;
+    }
+</script>

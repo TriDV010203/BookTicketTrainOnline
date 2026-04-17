@@ -1,0 +1,165 @@
+@model BookingTrain.Web.Models.Auth.LoginViewModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = null; // Auth pages use their own layout
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập – BookingTrain</title>
+    <meta name="description" content="Đăng nhập vào hệ thống đặt vé tàu BookingTrain" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="auth-page">
+    <!-- Animated orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    @if (TempData["SuccessMsg"] != null)
+    {
+        <div class="toast-banner toast-success" onclick="this.remove()">
+            <span>✅</span><span>@TempData["SuccessMsg"]</span>
+        </div>
+    }
+
+    <div class="auth-split">
+        <!-- ═══ LEFT PANEL ═══ -->
+        <div class="auth-panel-left">
+            <div class="auth-left-content">
+                <a asp-controller="Home" asp-action="Index" class="auth-brand">
+                    <div class="brand-icon">🚆</div>
+                    <div class="brand-name">Booking<em>Train</em></div>
+                </a>
+
+                <h2>Chào mừng<br/>trở lại <span class="hl">bạn ơi!</span></h2>
+                <p>Hệ thống đặt vé tàu thông minh – nhanh chóng, tiện lợi và an toàn. Hàng nghìn chuyến tàu đang chờ bạn mỗi ngày.</p>
+
+                <ul class="feat-list">
+                    <li><div class="fi">🔍</div> Tra cứu lịch trình theo thời gian thực</li>
+                    <li><div class="fi">💺</div> Tự chọn ghế ngồi yêu thích</li>
+                    <li><div class="fi">💳</div> Thanh toán an toàn, nhiều hình thức</li>
+                    <li><div class="fi">🎫</div> Nhận vé điện tử ngay lập tức</li>
+                    <li><div class="fi">🔔</div> Thông báo chuyến đi qua email & SMS</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ RIGHT PANEL ═══ -->
+        <div class="auth-panel-right">
+            <div class="auth-form-box">
+                <div class="auth-form-header">
+                    <!-- Mobile logo (ẩn trên desktop) -->
+                    <a asp-controller="Home" asp-action="Index" class="mobile-brand">
+                        <div class="brand-icon">🚆</div>
+                        <div class="brand-name">Booking<em>Train</em></div>
+                    </a>
+                    <h1>Đăng nhập</h1>
+                    <p>Nhập thông tin tài khoản của bạn để tiếp tục</p>
+                </div>
+
+                <!-- Validation errors -->
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-error">
+                        <span class="alert-icon">⚠️</span>
+                        <div>
+                            @foreach (var err in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <div>@err.ErrorMessage</div>
+                            }
+                        </div>
+                    </div>
+                }
+
+                <form asp-action="Login" method="post" id="login-form" novalidate>
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <div class="input-wrap">
+                            <span class="input-icon">📧</span>
+                            <input type="email" id="email" name="Email"
+                                   class="form-control @(ViewData.ModelState["Email"]?.Errors.Count > 0 ? "input-error" : "")"
+                                   value="@Model.Email"
+                                   placeholder="ten@@email.com"
+                                   autocomplete="email" />
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-error" })
+                    </div>
+
+                    <!-- Mật khẩu -->
+                    <div class="form-group">
+                        <label class="form-label" for="password">
+                            Mật khẩu
+                            <a href="#">Quên mật khẩu?</a>
+                        </label>
+                        <div class="input-wrap">
+                            <span class="input-icon">🔒</span>
+                            <input type="password" id="password" name="Password"
+                                   class="form-control @(ViewData.ModelState["Password"]?.Errors.Count > 0 ? "input-error" : "")"
+                                   placeholder="••••••••"
+                                   autocomplete="current-password" />
+                            <button type="button" class="pw-toggle" id="toggle-pw" aria-label="Hiện/ẩn mật khẩu">👁️</button>
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "field-error" })
+                    </div>
+
+                    <!-- Ghi nhớ -->
+                    <div class="check-row">
+                        <input type="checkbox" id="rememberMe" name="RememberMe" value="true" @(Model.RememberMe ? "checked" : "") />
+                        <label for="rememberMe">Ghi nhớ đăng nhập</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full btn-lg" id="login-btn">
+                        🚀 Đăng nhập
+                    </button>
+                </form>
+
+                <div class="auth-divider">hoặc</div>
+
+                <a asp-controller="Auth" asp-action="Register" class="btn btn-outline btn-full">
+                    ✨ Tạo tài khoản mới
+                </a>
+
+                <div class="auth-footer">
+                    Chưa có tài khoản?
+                    <a asp-controller="Auth" asp-action="Register">Đăng ký ngay →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle mật khẩu hiện/ẩn
+        const pwInput = document.getElementById('password');
+        const pwBtn   = document.getElementById('toggle-pw');
+        pwBtn.addEventListener('click', () => {
+            const isHidden = pwInput.type === 'password';
+            pwInput.type = isHidden ? 'text' : 'password';
+            pwBtn.textContent = isHidden ? '🙈' : '👁️';
+        });
+
+        // Loading state
+        const form = document.getElementById('login-form');
+        const btn  = document.getElementById('login-btn');
+        form.addEventListener('submit', () => {
+            const email = document.getElementById('email').value.trim();
+            const pw    = document.getElementById('password').value;
+            if (email && pw) {
+                btn.disabled = true;
+                btn.innerHTML = '<span style="display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;"></span> Đang đăng nhập...';
+            }
+        });
+    </script>
+    <style>
+        @@keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</body>
+</html>

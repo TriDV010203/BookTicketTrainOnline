@@ -288,4 +288,6 @@ B:\Project Test\BookingTrain\API\obj\Debug\net8.0\ref\BookingTrain.API.dll
 B:\Project Test\BookingTrain\API\bin\Debug\net8.0\BookingTrain.Application.dll
 B:\Project Test\BookingTrain\API\bin\Debug\net8.0\BookingTrain.Application.pdb
 B:\Project Test\BookingTrain\API\obj\Debug\net8.0\BookingTrain.API.sourcelink.json
+B:\Project Test\BookingTrain\API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+B:\Project Test\BookingTrain\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 B:\Project Test\BookingTrain\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

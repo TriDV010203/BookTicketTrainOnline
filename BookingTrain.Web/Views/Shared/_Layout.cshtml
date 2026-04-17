@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] – BookingTrain</title>
+    <meta name="description" content="@(ViewData["Description"] ?? "Hệ thống đặt vé tàu trực tuyến nhanh chóng, tiện lợi")" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <!-- Animated background orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Toast (TempData) -->
+    @if (TempData["SuccessMsg"] != null)
+    {
+        <div class="toast-banner toast-success" onclick="this.remove()">
+            <span>✅</span>
+            <span>@TempData["SuccessMsg"]</span>
+        </div>
+    }
+    @if (TempData["ErrorMsg"] != null)
+    {
+        <div class="toast-banner toast-error" onclick="this.remove()">
+            <span>❌</span>
+            <span>@TempData["ErrorMsg"]</span>
+        </div>
+    }
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a class="nav-brand" asp-controller="Home" asp-action="Index">
+            <div class="brand-icon">🚆</div>
+            Booking<span>Train</span>
+        </a>
+
+        <ul class="nav-menu">
+            <li><a asp-controller="Home" asp-action="Index"
+                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")">
+                Trang chủ
+            </a></li>
+            <li><a href="#">Lịch trình</a></li>
+            <li><a href="#">Vé của tôi</a></li>
+            <li><a href="#">Hỗ trợ</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            @if (Context.Session.GetString("JWT_Token") != null)
+            {
+                <!-- Đã đăng nhập -->
+                <div class="user-badge">
+                    <div class="uavatar">
+                        @{ var uname = Context.Session.GetString("User_Name") ?? "U"; }
+                        @uname.Substring(0, 1).ToUpper()
+                    </div>
+                    <span>@uname</span>
+                </div>
+
+                <form asp-controller="Auth" asp-action="Logout" method="post" style="margin:0;">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        🚪 Đăng xuất
+                    </button>
+                </form>
+            }
+            else
+            {
+                <!-- Chưa đăng nhập -->
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-ghost btn-sm">Đăng nhập</a>
+                <a asp-controller="Auth" asp-action="Register" class="btn btn-primary btn-sm">Đăng ký</a>
+            }
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 <a href="#">BookingTrain</a> — Đặt vé tàu trực tuyến &mdash; Made with ❤️</p>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
